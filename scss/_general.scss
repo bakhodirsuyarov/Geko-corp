@@ -1,0 +1,19 @@
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: $background-color-body;
+}
